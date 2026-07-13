@@ -44,6 +44,15 @@ description: "Task list template for feature implementation"
   ============================================================================
 -->
 
+## Constitution-Driven Quality Tasks
+
+- [ ] T000 Validate that the work preserves the offline training experience
+- [ ] T000 Add or update tests or manual verification steps for the behavior
+- [ ] T000 Update README or stakeholder documentation if user-visible behavior changes
+- [ ] T000 Verify authentication, authorization, and data isolation for protected flows
+
+---
+
 ## Phase 1: Setup (Shared Infrastructure)
 
 **Purpose**: Project initialization and basic structure

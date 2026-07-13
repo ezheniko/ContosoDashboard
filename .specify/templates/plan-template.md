@@ -31,7 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Training-First and Offline-Capable: The feature MUST remain usable without external services or provide a documented abstraction path for future integration.
+- Security-by-Design: Protected routes and service-layer access MUST preserve authentication, authorization, and user isolation requirements.
+- Test-First and Evidence-Based Change: The plan MUST include a concrete validation scenario and verification step for the feature.
+- Documentation and Traceability: User-facing changes MUST be reflected in the README or stakeholder docs when behavior changes.
 
 ## Project Structure
 

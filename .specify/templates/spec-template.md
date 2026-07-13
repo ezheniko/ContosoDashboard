@@ -82,6 +82,12 @@
   Fill them out with the right functional requirements.
 -->
 
+### Constitution Alignment *(mandatory)*
+
+- The feature MUST preserve the offline training experience and avoid introducing new external service requirements unless explicitly justified.
+- The feature MUST maintain authentication, authorization, and user-isolation expectations for protected data.
+- The feature MUST fit the existing ASP.NET Core 8 / Blazor Server / EF Core / SQL Server LocalDB architecture unless the plan documents a clear migration path.
+
 ### Functional Requirements
 
 - **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
